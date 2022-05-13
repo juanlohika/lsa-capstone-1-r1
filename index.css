@@ -1,0 +1,135 @@
+CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Archivo', sans-serif;
+}
+
+#nav{
+	background-color: #007F81ff;
+	text-decoration: none;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover{
+  background-color: #ddd;
+  color: black;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+}
+
+#footer a:hover{
+  background-color: #ddd;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+
+
+.mx-2>a {
+   text-decoration: none;
+   color: white;
+}
+
+/* Change the color of links on hover */
+#lsa-logo a:hover {
+  background-color: #ddd;
+  color: black;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+}
+
+/*BACKGROUND COLORS!*/
+
+#bg1, #bg2{
+	background: linear-gradient(0deg, rgba(218,140,14,.5) 17%, rgba(195,166,34,0.9) 39%, rgba(253,156,45,0.9444152661064426) 89%), url(https://www.re-thinkingthefuture.com/wp-content/uploads/2020/01/A522-15-PROJECTS-BY-ARCHETYPE-KING-POWER-MAHANAKHON-TOWER-RITZ-CARLTON-RESIDENCES-IMAGE-1.jpg);
+	background-color: whitesmoke;
+	background-size: 250vh;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	background-attachment: fixed;
+	min-height: 80vh;
+	background-repeat: no-repeat;
+	bottom: 0em;
+}
+
+#footer{
+	background-color: #EF9B62ff;
+}
+#contact-box{
+	background-color: #1A898Aff;
+}
+
+#about-me, #contacts{
+	background: linear-gradient(90deg, rgba(0,0,0,0.5) 25%, rgba(0,127,129,0.9) 81%), url(https://www.re-thinkingthefuture.com/wp-content/uploads/2020/01/A522-15-PROJECTS-BY-ARCHETYPE-KING-POWER-MAHANAKHON-TOWER-RITZ-CARLTON-RESIDENCES-IMAGE-1.jpg);
+	background-color: whitesmoke;
+	background-size: 250vh;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	background-attachment: fixed;
+	min-height: 80vh;
+	background-repeat: no-repeat;
+	bottom: 0em;
+}
+
+#slide1, #slide2, #slide3{
+	background: linear-gradient(0deg, rgba(89,89,89,0.7906512946975666) 16%, rgba(233,229,226,0.7598389697675946) 47%, rgba(247,244,239,0.44611347957151615) 80%);
+	padding-bottom: 9em;
+	top: 18em;
+	bottom: 0em;
+	width: 100%;
+	left: 0em;
+
+}
+
+/*Z-Index*/
+
+#id="tools"{
+	z-index: 10;
+}
+
+
+/*
+/* CSS HEX */
+--teal: #007F81ff;
+--white: #FEFEFEff;
+--sandy-brown: #EF9B62ff;
+
+/* CSS HSL */
+--teal: hsla(181, 100%, 25%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--sandy-brown: hsla(24, 82%, 66%, 1);
+
+/* SCSS HEX */
+$teal: #007F81ff;
+$white: #FEFEFEff;
+$sandy-brown: #EF9B62ff;
+
+/* SCSS HSL */
+$teal: hsla(181, 100%, 25%, 1);
+$white: hsla(0, 0%, 100%, 1);
+$sandy-brown: hsla(24, 82%, 66%, 1);
+
+/* SCSS RGB */
+$teal: rgba(0, 127, 129, 1);
+$white: rgba(254, 254, 254, 1);
+$sandy-brown: rgba(239, 155, 98, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-right: linear-gradient(90deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-bottom: linear-gradient(180deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-left: linear-gradient(270deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-top-right: linear-gradient(45deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-bottom-right: linear-gradient(135deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-top-left: linear-gradient(225deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-bottom-left: linear-gradient(315deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-radial: radial-gradient(#007F81ff, #FEFEFEff, #EF9B62ff);
